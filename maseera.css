@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 5s ease;
+}
+body{
+    animation:change 5s ease infinite;
+}
+@keyframes change{
+    0%{
+        background-image: url(https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    25%{ background-image: url(https://c4.wallpaperflare.com/wallpaper/809/850/443/taj-mahal-4k-background-for-computer-wallpaper-preview.jpg);
+ 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(https://w0.peakpx.com/wallpaper/435/216/HD-wallpaper-taj-mahal-tomb-monument-water-india-lake.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    75%{ 
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/304/799/788/taj-mahal-4k-image-hd-wallpaper-preview.jpg);
+ 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(https://img.freepik.com/premium-photo/taj-mahal-blue-sky-beautiful-view-india_400112-325.jpg?w=900);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+a:link{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+}
+.login{
+    padding:2%;
+    justify-content: flex-end;
+  }
+a{
+    color:black;
+    padding:90px;
+}
